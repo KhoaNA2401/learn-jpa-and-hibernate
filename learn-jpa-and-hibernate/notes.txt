@@ -1,0 +1,6 @@
+INSERT INTO course (id, name, author) VALUES (1, 'Java', 'Karz');
+INSERT INTO course (id, name, author) VALUES (2, 'React', 'Karz');
+
+SELECT * FROM COURSE;
+
+delete from course where id=1;
